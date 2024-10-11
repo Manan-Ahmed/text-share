@@ -1,0 +1,110 @@
+.text-area{
+    font-size: 22px;
+    letter-spacing: -.7px;
+    color: #000;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    min-height: 221px;
+    max-height: auto;
+    overflow: hidden;
+    /* resize: none; */
+
+}
+::-webkit-scrollbar{
+       display: none;
+}
+
+:focus {
+    outline: none;
+}
+
+
+.themBtn{
+
+    /* float: right; */
+    padding: 12px 70px;
+    border: 2px solid #000000;
+    background: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    cursor: pointer;
+   /* width: 150px; */
+   color: #000000;
+   background-color: #fff;
+
+  
+}
+
+.themBtn:hover{
+    color: blue;
+    border: 2px solid #1c1cc5;
+
+}
+/* .themBtn :hover{
+    background-color: ;
+}
+ */
+
+
+
+/* .file{
+    border: 1px solid black ;
+    width: 100%;
+    padding: 20px;
+    min-height: 221px;
+
+} */
+
+.dropzone{
+    width: 100%;
+    /* border: 1px solid black; */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 220px;
+/* height: 100% !important */
+}
+ .text{
+    font-weight: 300;
+    line-height: 1.88;
+    letter-spacing: -.3px;
+    color: #9b9b9b;
+    font-size: 15px;
+
+ } 
+
+ .filelist{
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+ }
+ .box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   width: 100px;
+   /* background-color: red; */
+   height: 100px;
+   padding: 5px;
+gap: 5px;
+   
+
+ }
+
+ .box>svg{
+   text-align:  center;
+font-size: 30px;
+   width: 100px;
+   align-items: center;
+ }
+
+ .box:hover{
+    background-color: #f6efef;
+ }
+
+ .tempfile{
+    filter: brightness(50%);
+ }
